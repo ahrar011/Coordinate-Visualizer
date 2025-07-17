@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(45deg, #1e3c72, #2a5298); /* Gradient background */
+    background: linear-gradient(45deg, #212121, #ababab); /* Gradient background */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@ body {
 h2 {
     font-size: 1.8em;
     margin-bottom: 20px;
-    color: #2a5298;
+    color: #212121;
 }
 
 h3 {
@@ -70,14 +70,14 @@ input {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #ababab;
     border-radius: 8px;
     font-size: 1em;
     transition: 0.3s;
 }
 
 input:focus {
-    border-color: #2a5298;
+    border-color: #212121;
     outline: none;
 }
 
@@ -95,11 +95,11 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #2196F3;
 }
 
 button:active {
-    background-color: #3e8e41;
+    background-color: #4CAF50;
 }
 
 button.primary {
@@ -111,7 +111,7 @@ button.success {
 }
 
 button.info {
-    background-color: #00BCD4;
+    background-color: #2196F3;
 }
 button.danger {
  background-color: rgb(196, 20, 20);
